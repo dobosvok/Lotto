@@ -88,7 +88,7 @@ public abstract class Utils {
                             } else {
                                 // matchedNumbers = new ArrayList<>()
                                 for (int i = 0; i < w.getNumbers().size(); i++) {
-                                    matchedNumbers.add(f.getNumbers().contains(w.getNumbers().get(i)));
+                                    matchedNumbers.add(w.getNumbers().contains(f.getNumbers().get(i)));
 
                                 }
                             }
